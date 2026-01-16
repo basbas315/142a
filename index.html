@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Texto con clave</title>
+</head>
+<body>
+
+  <h2>No valgo nd</h2>
+
+  <p>
+    A B C D E F G H I J K L M N Ñ O P Q R S T U V W X Y Z<br>
+    B C D E F G H I J K L M N Ñ O P Q R S T U V W X Y Z A<br>
+    C D E F G H I J K L M N Ñ O P Q R S T U V W X Y Z A B<br>
+    D E F G H I J K L M N Ñ O P Q R S T U V W X Y Z A B C<br>
+    E F G H I J K L M N Ñ O P Q R S T U V W X Y Z A B C D<br>
+    F G H I J K L M N Ñ O P Q R S T U V W X Y Z A B C D E<br>
+    G H I J K L M N Ñ O P Q R S T U V W X Y Z A B C D E F<br>
+    H I J K L M N Ñ O P Q R S T U V W X Y Z A B C D E F G<br>
+    I J K L M N Ñ O P Q R S T U V W X Y Z A B C D E F G H<br>
+    J K L M N Ñ O P Q R S T U V W X Y Z A B C D E F G H I<br>
+    K L M N Ñ O P Q R S T U V W X Y Z A B C D E F G H I J<br>
+    L M N Ñ O P Q R S T U V W X Y Z A B C D E F G H I J K<br>
+    M N Ñ O P Q R S T U V W X Y Z A B C D E F G H I J K L<br>
+    N Ñ O P Q R S T U V W X Y Z A B C D E F G H I J K L M<br>
+    Ñ O P Q R S T U V W X Y Z A B C D E F G H I J K L M N<br>
+    O P Q R S T U V W X Y Z A B C D E F G H I J K L M N Ñ<br>
+    P Q R S T U V W X Y Z A B C D E F G H I J K L M N Ñ O<br>
+    Q R S T U V W X Y Z A B C D E F G H I J K L M N Ñ O P<br>
+    R S T U V W X Y Z A B C D E F G H I J K L M N Ñ O P Q<br>
+    S T U V W X Y Z A B C D E F G H I J K L M N Ñ O P Q R<br>
+    T U V W X Y Z A B C D E F G H I J K L M N Ñ O P Q R S<br>
+    U V W X Y Z A B C D E F G H I J K L M N Ñ O P Q R S T<br>
+    V W X Y Z A B C D E F G H I J K L M N Ñ O P Q R S T U<br>
+    W X Y Z A B C D E F G H I J K L M N Ñ O P Q R S T U V<br>
+    X Y Z A B C D E F G H I J K L M N Ñ O P Q R S T U V W<br>
+    Y Z A B C D E F G H I J K L M N Ñ O P Q R S T U V W X<br>
+    Z A B C D E F G H I J K L M N Ñ O P Q R S T U V W X Y<br>
+  </p>
+  <p>dolor</p>
+  <p>YWZZRFWZB</p>    
+
+  <p>Ingresa el cifrado:</p>
+
+  <input type="password" id="clave">
+  <button onclick="verTexto()">revelar secreto</button>
+
+  <p id="textoSecreto" style="display:none;">
+    https://www.canva.com/design/DAG-R7go1is/08gJefm21-_49gV6aI4YyA/view?utm_content=DAG-R7go1is&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h719a1ce9ae<br>
+    3:9 11:2 1:3 14:4 14:6<br>
+    13:4 1:14 2:30 10:7 10:10 13:2<br>
+    5:8 5:1<br>
+    6:17 12:1<br>
+    12:2 10:3 12:1 10:5 5:1 6:2<br>
+
+    <img src="https://img.freepik.com/fotos-premium/luna-3d-violet-cielo-estrellado-radiante-luna-llena_762678-112875.jpg?semt=ais_hybrid&w=740&q=80" alt="https://docs.google.com/document/d/1kt9_5efdRH6tO8JsLUdPfDntz4xy-13EAHfl0glnmW4/edit?usp=sharing">
+    <p style="color: white;">https://docs.google.com/document/d/1kt9_5efdRH6tO8JsLUdPfDntz4xy-13EAHfl0glnmW4/edit?usp=sharing</p>
+
+  </p>
+
+  <script>
+    function verTexto() {
+      const claveCorrecta = "violacion";
+      const claveIngresada = document.getElementById("clave").value;
+
+      if (claveIngresada === claveCorrecta) {
+        document.getElementById("textoSecreto").style.display = "block";
+      } else {
+        alert("Clave incorrecta");
+      }
+    }
+  </script>
+
+</body>
+</html>
